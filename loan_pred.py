@@ -1,6 +1,5 @@
 from tkinter import *
 import tkinter as tk
-from tkinter import messagebox as mb
 from PIL import ImageTk, Image
 import pandas as pd
 
@@ -51,15 +50,6 @@ L1 = tk.Label(windows, text='Propert Area', bg='black', fg='white', height=1, wi
 L1.place(x=40, y=310)
 txt9= tk.Entry(windows, width=50)
 txt9.place(x=170,y=310)
-
-'''menu= StringVar()
-menu.set("Select Any Language")
-drop= OptionMenu(windows, menu,"C++", "Java","Python","JavaScript","Rust","GoLang")
-drop.pack()'''
-'''rad1=Radiobutton(windows,text='Gender',value=0)
-rad2=Radiobutton(windows,text='Gender',value=1)
-rad1.grid(column=230,row=380)
-rad2.grid(column=230,row=400)'''
 
 
 def ok():
